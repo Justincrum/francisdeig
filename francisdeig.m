@@ -5,7 +5,7 @@ function [H,Eig,iter] = francisdeig(A)
 
 [H]=Hessenberg(A);  %Upper Hessenberg form of A.
 m=min(size(A));
-n=m;
+n=m; %lol hi
 Eig=zeros(m,1);
 tolerance=1e-9;
 % for k=2:m
